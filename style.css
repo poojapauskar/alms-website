@@ -1,10 +1,9 @@
 body{
-	background-image: url("images/cover/bottom.jpg");
+	background-color: #1F2438;
 }
 
 .top-nav{
-	background:transparent;
-	color:black;
+
 }
 
 .border-bottom{
@@ -13,94 +12,87 @@ body{
 }
 .nav-button{
 	border:none;
+	background:transparent;
 	font-family:"Arial narrow";
-	padding:4px;
-	width:50%;
 	margin-left:0%;
-	background:#F4FEF3;
 	margin-top:2%;
-	margin-left:0%;
-	font-size: 25px;
+	margin-left:2%;
+	font-size: 20px;
 	text-align:center;
-  	border-radius: 10px 10px 10px 10px;
-  	color: #292C3B;
+  	color: white;
 }
+
 
 .slideTitle1{
 	font-family:"Arial narrow";
-	padding:4px;
-	width:40%;
 	margin-left:0%;
-	background:#F4FEF3;
+	background:transparent;
 	margin-top:5%;
-	font-size: 25px;
+	font-size: 20px;
 	text-align:center;
   	border-radius: 10px 10px 10px 10px;
-  	color: #292C3B;
+  	color:white;
 }
 
 .slideTitle2{
 	font-family:"Arial narrow";
-	padding:4px;
-	width:40%;
 	margin-left:0%;
-	background:#F4FEF3;
+	background:transparent;
 	margin-top:5%;
 	font-size: 25px;
 	text-align:center;
   	border-radius: 10px 10px 10px 10px;
-  	color:#292C3B;
+  	color:white;
 }
 
 .slideTitle3{
 	font-family:"Arial narrow";
-	width:40%;
-	padding:4px;
 	margin-left:0%;
-	background:#F4FEF3;
+	background:transparent;
 	margin-top:5%;
 	font-size: 25px;
+
 	text-align:center;
 	font-size: 25px;
   	border-radius: 10px 10px 10px 10px;
-  	color:#292C3B;
+  	color:white;
 }
 
 .left{
   border:none;
-  background:#F4FEF3;
+  background:transparent;
   position: absolute;
   top: 50%;
   left: 5%;
-  width: 8%;
-  height:8%;
-  font-size: 13px;
-  border-radius: 5px 5px 5px 5px;
-  color:#292C3B;
+  font-size: 20px;
+  color:white;
 }
 
 .right{
   border:none;
-  background:#F4FEF3;
+  background:transparent;
   position: absolute;
   top: 50%;
   left: 87%;
-  width: 8%;
-  height:8%;
-  font-size: 13px;
-  border-radius:5px 5px 5px 5px;
-  color:#292C3B;
+  font-size: 20px;
+  color:white;
 }
 
 .mySlidesV{
-	border: 1px solid #292C3B;
+	border: 2px solid #1F2438;
 	border-radius:5%;
+	width:80%;
+	margin-left:10%;
 }
 .mySlidesS{
-	border: 1px solid #292C3B;
+	border: 2px solid #1F2438;
 	border-radius:5%;
+	width:80%;
+	margin-left:10%;
 }
 .mySlidesJ{
-	border: 1px solid #292C3B;
+	border: 2px solid #1F2438;
 	border-radius:5%;
+	width:80%;
+	margin-left:10%;
 }
