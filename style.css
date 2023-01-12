@@ -8,7 +8,7 @@ body{
 }
 
 .top1{
-	border: 5px solid white;
+	border: 2px solid white;
 	border-radius:5%;
 }
 
@@ -18,7 +18,7 @@ body{
 }
 
 .support1{
-	border: 5px solid white;
+	border: 2px solid white;
 	border-radius:5%;
 }
 
@@ -31,9 +31,9 @@ body{
 	background:transparent;
 	font-family:"Arial narrow";
 	margin-left:0%;
-	margin-top:2%;
+	margin-top:5%;
 	margin-left:2%;
-	font-size: 20px;
+	font-size: 15px;
 	text-align:center;
   	color: white;
 }
@@ -43,7 +43,7 @@ body{
 	margin-left:0%;
 	background:transparent;
 	margin-top:3%;
-	font-size: 20px;
+	font-size: 15px;
 	text-align:center;
   	border-radius: 10px 10px 10px 10px;
   	color:white;
@@ -54,7 +54,7 @@ body{
 	margin-left:0%;
 	background:transparent;
 	margin-top:3%;
-	font-size: 20px;
+	font-size: 15px;
 	text-align:center;
   	border-radius: 10px 10px 10px 10px;
   	color:white;
@@ -65,7 +65,7 @@ body{
 	margin-left:0%;
 	background:transparent;
 	margin-top:8%;
-	font-size: 20px;
+	font-size: 15px;
 	text-align:center;
   	border-radius: 10px 10px 10px 10px;
   	color:white;
@@ -76,7 +76,7 @@ body{
 	margin-left:0%;
 	background:transparent;
 	margin-top:8%;
-	font-size: 20px;
+	font-size: 15px;
 	text-align:center;
   	border-radius: 10px 10px 10px 10px;
   	color:white;
@@ -87,7 +87,7 @@ body{
 	margin-left:0%;
 	background:transparent;
 	margin-top:8%;
-	font-size: 20px;
+	font-size: 15px;
 
 	text-align:center;
   	border-radius: 10px 10px 10px 10px;
@@ -100,7 +100,7 @@ body{
   position: absolute;
   top: 50%;
   left: 5%;
-  font-size: 20px;
+  font-size: 15px;
   color:white;
 }
 
@@ -110,24 +110,24 @@ body{
   position: absolute;
   top: 50%;
   left: 87%;
-  font-size: 20px;
+  font-size: 15px;
   color:white;
 }
 
 .mySlidesV{
-	border: 5px solid white;
+	border: 2px solid white;
 	border-radius:5%;
 	width:80%;
 	margin-left:10%;
 }
 .mySlidesS{
-	border: 5px solid white;
+	border: 2px solid white;
 	border-radius:5%;
 	width:80%;
 	margin-left:10%;
 }
 .mySlidesJ{
-	border: 5px solid white;
+	border: 2px solid white;
 	border-radius:5%;
 	width:80%;
 	margin-left:10%;
