@@ -1,9 +1,25 @@
 body{
-	background-color: #1F2438;
+	background: url("images/cover/bottom.jpg");
 }
 
 .top-nav{
+	text-align:center;
+	height:80%;
+}
 
+.top1{
+	border: 5px solid white;
+	border-radius:5%;
+}
+
+.support-nav{
+	text-align:center;
+	height:80%;
+}
+
+.support1{
+	border: 5px solid white;
+	border-radius:5%;
 }
 
 .border-bottom{
@@ -22,12 +38,33 @@ body{
   	color: white;
 }
 
+.tag{
+	font-family:"Arial narrow";
+	margin-left:0%;
+	background:transparent;
+	margin-top:3%;
+	font-size: 20px;
+	text-align:center;
+  	border-radius: 10px 10px 10px 10px;
+  	color:white;
+}
+
+.tag-support{
+	font-family:"Arial narrow";
+	margin-left:0%;
+	background:transparent;
+	margin-top:3%;
+	font-size: 20px;
+	text-align:center;
+  	border-radius: 10px 10px 10px 10px;
+  	color:white;
+}
 
 .slideTitle1{
 	font-family:"Arial narrow";
 	margin-left:0%;
 	background:transparent;
-	margin-top:5%;
+	margin-top:8%;
 	font-size: 20px;
 	text-align:center;
   	border-radius: 10px 10px 10px 10px;
@@ -38,8 +75,8 @@ body{
 	font-family:"Arial narrow";
 	margin-left:0%;
 	background:transparent;
-	margin-top:5%;
-	font-size: 25px;
+	margin-top:8%;
+	font-size: 20px;
 	text-align:center;
   	border-radius: 10px 10px 10px 10px;
   	color:white;
@@ -49,11 +86,10 @@ body{
 	font-family:"Arial narrow";
 	margin-left:0%;
 	background:transparent;
-	margin-top:5%;
-	font-size: 25px;
+	margin-top:8%;
+	font-size: 20px;
 
 	text-align:center;
-	font-size: 25px;
   	border-radius: 10px 10px 10px 10px;
   	color:white;
 }
@@ -79,19 +115,19 @@ body{
 }
 
 .mySlidesV{
-	border: 2px solid #1F2438;
+	border: 5px solid white;
 	border-radius:5%;
 	width:80%;
 	margin-left:10%;
 }
 .mySlidesS{
-	border: 2px solid #1F2438;
+	border: 5px solid white;
 	border-radius:5%;
 	width:80%;
 	margin-left:10%;
 }
 .mySlidesJ{
-	border: 2px solid #1F2438;
+	border: 5px solid white;
 	border-radius:5%;
 	width:80%;
 	margin-left:10%;
