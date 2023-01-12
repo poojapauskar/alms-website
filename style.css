@@ -8,7 +8,6 @@ body{
 }
 
 .top1{
-	border: 5px solid #CEA13C;
 	border-radius:5%;
 }
 
@@ -17,27 +16,26 @@ body{
 }
 
 .support1{
-	border: 5px solid #CEA13C;
 	border-radius:5%;
 }
 
 .nav-button{
+      opacity: 0.8;
 	font-family:"Arial narrow";
 	margin-left:0%;
 	margin-top:5%;
 	margin-left:2%;
-
+	border:none;
   	color: white;
 	background:#0092BB;
 	padding:15px;
 	font-size: 15px;
 	text-align:center;
-  	border: 5px solid #582722;
-  	border-radius:50%;
 	color:white;
 }
 
 .tag{
+	opacity: 0.6;
 	font-family:"Arial narrow";
 	margin-left:0%;
 	background:#0092BB;
@@ -45,12 +43,11 @@ body{
 	margin-top:8%;
 	font-size: 15px;
 	text-align:center;
-  	border: 5px solid #582722;
-  	border-radius:50%;
 	color:white;
 }
 
 .tag-support{
+	opacity: 0.6;
 	font-family:"Arial narrow";
 	margin-left:0%;
 	background:#0092BB;
@@ -58,12 +55,11 @@ body{
 	margin-top:8%;
 	font-size: 15px;
 	text-align:center;
-  	border: 5px solid #582722;
-  	border-radius:50%;
 	color:white;
 }
 
 .slideTitle1{
+	opacity: 0.8;
 	font-family:"Arial narrow";
 	margin-left:0%;
 	background:#66A123;
@@ -71,12 +67,11 @@ body{
 	margin-top:8%;
 	font-size: 15px;
 	text-align:center;
-  	border: 5px solid #582722;
-  	border-radius:50%;
 	color:white;
 }
 
 .slideTitle2{
+	opacity: 0.8;
 	font-family:"Arial narrow";
 	margin-left:0%;
 	background:#66A123;
@@ -84,12 +79,11 @@ body{
 	margin-top:8%;
 	font-size: 15px;
 	text-align:center;
-  	border: 5px solid #582722;
-  	border-radius:50%;
 	color:white;
 }
 
 .slideTitle3{
+	opacity: 0.8;
 	font-family:"Arial narrow";
 	margin-left:0%;
 	background:#66A123;
@@ -97,48 +91,45 @@ body{
 	margin-top:8%;
 	font-size: 15px;
 	text-align:center;
-  	border: 5px solid #582722;
-  	border-radius:50%;
 	color:white;
 }
 
 .left{
+  opacity: 0.8;
   background:#856992;
-  border: 5px solid #582722;
   border-radius:50%;
   position: absolute;
   top: 50%;
   left: 4%;
   font-size: 30px;
   color:white;
+  border:none;
 }
 
 .right{
+  opacity: 0.8;
   background:#856992;
-  border: 5px solid #582722;
   border-radius:50%;
   position: absolute;
   top: 50%;
   left: 87%;
   font-size: 30px;
   color:white;
+  border:none;
 }
 
 
 .mySlidesV{
-	border: 5px solid #582722;
 	border-radius:5%;
 	width:80%;
 	margin-left:10%;
 }
 .mySlidesS{
-	border: 5px solid #582722;
 	border-radius:5%;
 	width:80%;
 	margin-left:10%;
 }
 .mySlidesJ{
-	border: 5px solid #582722;
 	border-radius:5%;
 	width:80%;
 	margin-left:10%;
