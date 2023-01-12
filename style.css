@@ -90,8 +90,9 @@ body{
 }
 
 .left{
-  border:none;
-  background:transparent;
+  background:#D36B14;
+  border: 2px solid #582722;
+  border-radius:50%;
   position: absolute;
   top: 50%;
   left: 5%;
@@ -100,14 +101,16 @@ body{
 }
 
 .right{
-  border:none;
-  background:transparent;
+  background:#D36B14;
+  border: 2px solid #582722;
+  border-radius:50%;
   position: absolute;
   top: 50%;
   left: 87%;
   font-size: 15px;
   color:white;
 }
+
 
 .mySlidesV{
 	border: 20px solid #582722;
