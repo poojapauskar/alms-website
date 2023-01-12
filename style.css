@@ -90,24 +90,24 @@ body{
 }
 
 .left{
-  background:#D36B14;
-  border: 2px solid #582722;
+  background:#856992;
+  border: 5px solid #582722;
   border-radius:50%;
   position: absolute;
   top: 50%;
-  left: 5%;
-  font-size: 15px;
+  left: 4%;
+  font-size: 30px;
   color:white;
 }
 
 .right{
-  background:#D36B14;
-  border: 2px solid #582722;
+  background:#856992;
+  border: 5px solid #582722;
   border-radius:50%;
   position: absolute;
   top: 50%;
   left: 87%;
-  font-size: 15px;
+  font-size: 30px;
   color:white;
 }
 
