@@ -1,5 +1,5 @@
 body{
-	background: url("images/cover/school.jpg");
+	background-color:#336192;
 }
 
 .top-nav{
@@ -8,7 +8,6 @@ body{
 }
 
 .top1{
-	border-radius:5%;
 }
 
 .support-nav{
@@ -16,7 +15,6 @@ body{
 }
 
 .support1{
-	border-radius:5%;
 }
 
 .nav-button{
@@ -26,30 +24,41 @@ body{
 	margin-left:2%;
 	border:none;
   	color: white;
-	background:#0092BB;
 	padding:15px;
 	font-size: 15px;
 	text-align:center;
 	color:white;
+	background:transparent;
 }
 
 .tag{
 	font-family:"Arial narrow";
-	margin-left:0%;
-	background:#0092BB;
-	padding:15px;
-	margin-top:8%;
-	font-size: 15px;
+	margin-top:5%;
+	font-size: 20px;
 	text-align:center;
 	color:white;
 }
 
-.tag-support{
+.tag_sub{
+	font-family:"Arial narrow";
+	font-size: 15px;
+	text-align:center;
+	color:white;
+	width:100%;
+}
+
+.tag_support{
 	font-family:"Arial narrow";
 	margin-left:0%;
-	background:#0092BB;
-	padding:15px;
 	margin-top:8%;
+	font-size: 20px;
+	text-align:center;
+	color:white;
+}
+
+.tag_support_sub{
+	font-family:"Arial narrow";
+	margin-left:0%;
 	font-size: 15px;
 	text-align:center;
 	color:white;
@@ -58,9 +67,7 @@ body{
 .slideTitle1{
 	font-family:"Arial narrow";
 	margin-left:0%;
-	background:#66A123;
-	padding:15px;
-	margin-top:8%;
+	margin-top:11%;
 	font-size: 15px;
 	text-align:center;
 	color:white;
@@ -69,9 +76,7 @@ body{
 .slideTitle2{
 	font-family:"Arial narrow";
 	margin-left:0%;
-	background:#66A123;
-	padding:15px;
-	margin-top:8%;
+	margin-top:11%;
 	font-size: 15px;
 	text-align:center;
 	color:white;
@@ -80,34 +85,31 @@ body{
 .slideTitle3{
 	font-family:"Arial narrow";
 	margin-left:0%;
-	background:#66A123;
-	padding:15px;
-	margin-top:8%;
+	margin-top:11%;
 	font-size: 15px;
 	text-align:center;
 	color:white;
 }
 
 .left{
-  background:#856992;
-  border-radius:50%;
   position: absolute;
   top: 50%;
   left: 4%;
   font-size: 30px;
   color:white;
   border:none;
+  background:transparent;
 }
 
 .right{
-  background:#856992;
-  border-radius:50%;
+  border:none;
   position: absolute;
   top: 50%;
   left: 89%;
   font-size: 30px;
   color:white;
   border:none;
+  background:transparent;
 }
 
 
