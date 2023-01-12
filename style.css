@@ -1,5 +1,5 @@
 body{
-	background: url("images/cover/bottom.jpg");
+	background: url("images/cover/school.jpg");
 }
 
 .top-nav{
@@ -8,24 +8,19 @@ body{
 }
 
 .top1{
-	border: 2px solid white;
+	border: 10px solid #CEA13C;
 	border-radius:5%;
 }
 
 .support-nav{
 	text-align:center;
-	height:80%;
 }
 
 .support1{
-	border: 2px solid white;
+	border: 10px solid #CEA13C;
 	border-radius:5%;
 }
 
-.border-bottom{
-	border-bottom:1px solid #292C3B;
-	padding-top:6%;
-}
 .nav-button{
 	border:none;
 	background:transparent;
@@ -34,7 +29,7 @@ body{
 	margin-top:5%;
 	margin-left:2%;
 	font-size: 15px;
-	text-align:center;
+
   	color: white;
 }
 
@@ -42,7 +37,7 @@ body{
 	font-family:"Arial narrow";
 	margin-left:0%;
 	background:transparent;
-	margin-top:3%;
+	margin-top:8%;
 	font-size: 15px;
 	text-align:center;
   	border-radius: 10px 10px 10px 10px;
@@ -53,7 +48,7 @@ body{
 	font-family:"Arial narrow";
 	margin-left:0%;
 	background:transparent;
-	margin-top:3%;
+	margin-top:8%;
 	font-size: 15px;
 	text-align:center;
   	border-radius: 10px 10px 10px 10px;
@@ -115,19 +110,19 @@ body{
 }
 
 .mySlidesV{
-	border: 2px solid white;
+	border: 20px solid #582722;
 	border-radius:5%;
 	width:80%;
 	margin-left:10%;
 }
 .mySlidesS{
-	border: 2px solid white;
+	border: 20px solid #582722;
 	border-radius:5%;
 	width:80%;
 	margin-left:10%;
 }
 .mySlidesJ{
-	border: 2px solid white;
+	border: 20px solid #582722;
 	border-radius:5%;
 	width:80%;
 	margin-left:10%;
