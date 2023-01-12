@@ -49,12 +49,14 @@ body{
 .tag-support{
 	font-family:"Arial narrow";
 	margin-left:0%;
-	background:transparent;
+	background:#0092BB;
+	padding:15px;
 	margin-top:8%;
 	font-size: 15px;
 	text-align:center;
-  	border-radius: 10px 10px 10px 10px;
-  	color:white;
+  	border: 5px solid #582722;
+  	border-radius:50%;
+	color:white;
 }
 
 .slideTitle1{
