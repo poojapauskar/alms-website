@@ -8,7 +8,7 @@ body{
 }
 
 .top1{
-	border: 10px solid #CEA13C;
+	border: 5px solid #CEA13C;
 	border-radius:5%;
 }
 
@@ -17,7 +17,7 @@ body{
 }
 
 .support1{
-	border: 10px solid #CEA13C;
+	border: 5px solid #CEA13C;
 	border-radius:5%;
 }
 
@@ -113,19 +113,19 @@ body{
 
 
 .mySlidesV{
-	border: 10px solid #582722;
+	border: 5px solid #582722;
 	border-radius:5%;
 	width:80%;
 	margin-left:10%;
 }
 .mySlidesS{
-	border: 10px solid #582722;
+	border: 5px solid #582722;
 	border-radius:5%;
 	width:80%;
 	margin-left:10%;
 }
 .mySlidesJ{
-	border: 10px solid #582722;
+	border: 5px solid #582722;
 	border-radius:5%;
 	width:80%;
 	margin-left:10%;
