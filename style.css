@@ -22,15 +22,19 @@ body{
 }
 
 .nav-button{
-	border:none;
-	background:transparent;
 	font-family:"Arial narrow";
 	margin-left:0%;
 	margin-top:5%;
 	margin-left:2%;
-	font-size: 15px;
 
   	color: white;
+	background:#0092BB;
+	padding:15px;
+	font-size: 15px;
+	text-align:center;
+  	border: 5px solid #582722;
+  	border-radius:50%;
+	color:white;
 }
 
 .tag{
