@@ -10,13 +10,13 @@ body{
 }
 
 .top1{
-	border:1px solid rgba(255,255,255,0.2);
+	border:1px solid rgba(35,138,91,0.8);
 }
 
 .border{
-	border-bottom:1px solid white;
+	border-bottom:1px solid #B84F3A;
 	margin-top:2%;
-	opacity:0.2;
+	opacity:0.8;
 }
 
 .support-nav{
@@ -24,7 +24,7 @@ body{
 }
 
 .support1{
-	border:1px solid rgba(255,255,255,0.2);
+	border:1px solid rgba(35,138,91,0.8);
 }
 
 .nav-button{
@@ -37,16 +37,16 @@ body{
 	padding:10px;
 	font-size: 10px;
 	text-align:center;
-	color:white;
+	color:#F0F4E5;
 	background:transparent;
 }
 
 .tag{
 	font-family:"Arial narrow";
-	margin-top:3%;
-	font-size: 15px;
+	margin-top:4%;
+	font-size: 20px;
 	text-align:center;
-	color:white;
+	color:#F0F4E5;
 	font-weight:bold;
 }
 
@@ -54,7 +54,7 @@ body{
 	font-family:"Arial narrow";
 	font-size: 10px;
 	text-align:center;
-	color:white;
+	color:#F0F4E5;
 	width:100%;
 }
 
@@ -62,9 +62,9 @@ body{
 	font-family:"Arial narrow";
 	margin-left:0%;
 	margin-top:3%;
-	font-size: 15px;
+	font-size: 20px;
 	text-align:center;
-	color:white;
+	color:#F0F4E5;
 	font-weight:bold;
 }
 
@@ -73,7 +73,7 @@ body{
 	margin-left:0%;
 	font-size: 10px;
 	text-align:center;
-	color:white;
+	color:#F0F4E5;
 }
 
 .slideTitle1{
@@ -82,7 +82,7 @@ body{
 	margin-top:2%;
 	font-size: 10px;
 	text-align:center;
-	color:white;
+	color:#F0F4E5;
 }
 
 .slideTitle2{
@@ -91,7 +91,7 @@ body{
 	margin-top:2%;
 	font-size: 10px;
 	text-align:center;
-	color:white;
+	color:#F0F4E5;
 }
 
 .slideTitle3{
@@ -100,7 +100,7 @@ body{
 	margin-top:2%;
 	font-size: 10px;
 	text-align:center;
-	color:white;
+	color:#F0F4E5;
 }
 
 .left{
@@ -108,7 +108,7 @@ body{
   top: 50%;
   left: 4%;
   font-size: 15px;
-  color:white;
+  color:#F0F4E5;
   border:none;
   background:transparent;
 }
@@ -119,26 +119,26 @@ body{
   top: 50%;
   left: 89%;
   font-size: 15px;
-  color:white;
+  color:#F0F4E5;
   border:none;
   background:transparent;
 }
 
 
 .mySlidesV{
-	border:1px solid rgba(255,255,255,0.2);
+	border:1px solid rgba(35,138,91,0.8);
 	border-radius:5%;
 	width:80%;
 	margin-left:10%;
 }
 .mySlidesS{
-	border:1px solid rgba(255,255,255,0.2);
+	border:1px solid rgba(35,138,91,0.8);
 	border-radius:5%;
 	width:80%;
 	margin-left:10%;
 }
 .mySlidesJ{
-	border:1px solid rgba(255,255,255,0.2);
+	border:1px solid rgba(35,138,91,0.8);
 	border-radius:5%;
 	width:80%;
 	margin-left:10%;
