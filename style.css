@@ -43,7 +43,7 @@ body{
 
 .tag{
 	font-family:"Arial narrow";
-	margin-top:0%;
+	margin-top:3%;
 	font-size: 15px;
 	text-align:center;
 	color:white;
@@ -61,7 +61,7 @@ body{
 .tag_support{
 	font-family:"Arial narrow";
 	margin-left:0%;
-	margin-top:0%;
+	margin-top:3%;
 	font-size: 15px;
 	text-align:center;
 	color:white;
