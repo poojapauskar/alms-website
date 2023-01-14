@@ -10,13 +10,13 @@ body{
 }
 
 .top1{
-	border:1px solid rgba(8,108,58,0.1);
+	border:1px solid rgba(8,108,58,0);
 }
 
 .border{
 	border-bottom:1px solid #B84F3A;
 	margin-top:2%;
-	opacity:0.1;
+	opacity:0;
 }
 
 .support-nav{
@@ -24,7 +24,7 @@ body{
 }
 
 .support1{
-	border:1px solid rgba(8,108,58,0.1);
+	border:1px solid rgba(8,108,58,0);
 }
 
 .nav-button{
@@ -126,19 +126,19 @@ body{
 
 
 .mySlidesV{
-	border:1px solid rgba(8,108,58,0.1);
+	border:1px solid rgba(8,108,58,0);
 	border-radius:5%;
 	width:80%;
 	margin-left:10%;
 }
 .mySlidesS{
-	border:1px solid rgba(8,108,58,0.1);
+	border:1px solid rgba(8,108,58,0);
 	border-radius:5%;
 	width:80%;
 	margin-left:10%;
 }
 .mySlidesJ{
-	border:1px solid rgba(8,108,58,0.1);
+	border:1px solid rgba(8,108,58,0);
 	border-radius:5%;
 	width:80%;
 	margin-left:10%;
