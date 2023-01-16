@@ -143,3 +143,47 @@ body{
 	width:80%;
 	margin-left:10%;
 }
+
+.part1{
+	font-family:"Arial narrow";
+	margin-left:0%;
+	margin-top:0%;
+	font-size: 10px;
+	text-align:left;
+	color:#F0F4E5;
+	padding-left:10%;
+	padding-right:10%;
+}
+
+.part2{
+	font-family:"Arial narrow";
+	margin-left:0%;
+	margin-top:0%;
+	font-size: 10px;
+	text-align:center;
+	color:#F0F4E5;
+	padding-left:10%;
+	padding-right:10%;
+}
+
+.part3{
+	font-family:"Arial narrow";
+	margin-left:0%;
+	margin-top:0%;
+	font-size: 10px;
+	text-align:center;
+	color:#F0F4E5;
+	padding-left:10%;
+	padding-right:10%;
+}
+
+.part4{
+	font-family:"Arial narrow";
+	margin-left:0%;
+	margin-top:0%;
+	font-size: 10px;
+	text-align:center;
+	color:#F0F4E5;
+	padding-left:10%;
+	padding-right:10%;
+}
