@@ -6,11 +6,13 @@ body{
 
 .openbtn{
       border:none;
-	background:transparent;
-	color:#F0F4E5;
+	background:#F0F4E5;
+	color:#6E829A;
+      border-radius:20%;
+	border:none;
 	position: absolute;
   	top: 8px;
-  	left: 16px;
+  	left: 21px;
 	z-index: 10;
 }
 
@@ -38,7 +40,12 @@ body{
   transition: 0.3s;
 }
 
+.sidepanel a:hover {
+    text-decoration: underline;
+}
+
 .sidepanel .closebtn {
+  color: #6E829A;
   position: absolute;
   top: 0;
   right: 25px;
