@@ -13,17 +13,29 @@
 </style>
 
 <script>
-function alms() {
-  location.href = "index.html";
+function openNav() {
+  document.getElementById("mySidepanel").style.width = "150px";
+}
+
+function closeNav() {
+  document.getElementById("mySidepanel").style.width = "0";
 }
 </script>
 </head>
 
 <body>
 
-<div class="support-nav" style="margin-top:1%;">
+<div id="mySidepanel" class="sidepanel">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="index.html">Home</a>
+  <a href="story.html">Story</a>
+    <a href="support.html">Support</a>
+</div>
+
+<div class="support-nav" style="margin-top:0%;">
    <div class="row">
     <div class="col-sm-1">
+		<button class="openbtn" onclick="openNav()">☰</button>
     </div>
     <div class="col-sm-5" style="margin:10px 10px 10px 10px">
 		<p class="tag_support">ALMS</p>
@@ -38,11 +50,5 @@ function alms() {
    </div>
 </div>
 
-
-<div class="row">
-      <div class="col-sm-4">
-	<button class="nav-button" onclick="alms()"><u>Back</u></button><br><br>
-      </div>
-  <div>
 </body>
 </html>
