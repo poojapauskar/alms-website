@@ -13,17 +13,30 @@
 </style>
 
 <script>
-function support() {
-  location.href = "support.html";
+function openNav() {
+  document.getElementById("mySidepanel").style.width = "150px";
+}
+
+function closeNav() {
+  document.getElementById("mySidepanel").style.width = "0";
 }
 </script>
+
 </head>
 
 <body>
 
+<div id="mySidepanel" class="sidepanel">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="index.html">Home</a>
+  <a href="story.html">Story</a>
+    <a href="support.html">Support</a>
+</div>
+
 <div class="top-nav" style="margin-top:0%;">
    <div class="row">
     <div class="col-sm-1">
+	<button class="openbtn" onclick="openNav()">☰</button>
     </div>
     <div class="col-sm-5" style="margin:5px 5px 5px 5px">
 		<p class="tag">ALMS</p>
@@ -113,12 +126,6 @@ function support() {
 	<!-- <div class="border"></div> -->
     </div>
   </div>
-
-  <div class="row">
-      <div class="col-sm-12">
-	<button class="nav-button" onclick="support()"><u>Support</u></button><br><br>
-      </div>
-  <div>
 
 </div>
 
