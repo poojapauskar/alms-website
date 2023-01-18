@@ -4,6 +4,46 @@ body{
 	background:#6E829A;
 }
 
+.openbtn{
+      border:none;
+	background:transparent;
+	color:#F0F4E5;
+	position: absolute;
+  	top: 8px;
+  	left: 16px;
+}
+
+.sidepanel  {
+  width:0;
+  height:100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #F0F4E5;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  transition: 0.5s;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 10px;
+  color: #6E829A;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 10px;
+}
+
 .top-nav{
 	text-align:center;
 	height:80%;
@@ -33,7 +73,6 @@ body{
 	margin-top:0%;
 	margin-left:2%;
 	border:none;
-  	color: white;
 	padding:10px;
 	font-size: 10px;
 	text-align:center;
@@ -160,7 +199,7 @@ body{
 	margin-left:0%;
 	margin-top:0%;
 	font-size: 10px;
-	text-align:center;
+	text-align:left;
 	color:#F0F4E5;
 	padding-left:10%;
 	padding-right:10%;
@@ -171,18 +210,7 @@ body{
 	margin-left:0%;
 	margin-top:0%;
 	font-size: 10px;
-	text-align:center;
-	color:#F0F4E5;
-	padding-left:10%;
-	padding-right:10%;
-}
-
-.part4{
-	font-family:"Arial narrow";
-	margin-left:0%;
-	margin-top:0%;
-	font-size: 10px;
-	text-align:center;
+	text-align:left;
 	color:#F0F4E5;
 	padding-left:10%;
 	padding-right:10%;
