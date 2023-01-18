@@ -6,8 +6,8 @@ body{
 
 .openbtn{
       border:none;
-	background:#F0F4E5;
-	color:#6E829A;
+      background:transparent;
+	color:#F0F4E5;
       border-radius:20%;
 	border:none;
 	position: absolute;
