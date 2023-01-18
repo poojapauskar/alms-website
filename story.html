@@ -13,21 +13,37 @@
 </style>
 
 <script>
-function alms() {
-  location.href = "index.html";
+function openNav() {
+  document.getElementById("mySidepanel").style.width = "150px";
+}
+
+function closeNav() {
+  document.getElementById("mySidepanel").style.width = "0";
 }
 </script>
 </head>
 
 <body>
 
+<div id="mySidepanel" class="sidepanel">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="index.html">Home</a>
+  <a href="story.html">Story</a>
+    <a href="support.html">Support</a>
+</div>
+
 <div class="top-nav" style="margin-top:0%;">
    <div class="row">
-    <div class="col-sm-12" style="margin:5px 5px 5px 5px">
+    <div class="col-sm-1">
+		<button class="openbtn" onclick="openNav()">☰</button>
+    </div>
+    <div class="col-sm-10" style="margin:5px 5px 5px 5px">
 		<p class="tag">ALMS</p>
 		<div style="border-bottom:1px solid #AF3F2B;opacity:0;margin-top:1%;margin-bottom:1%"></div>
 		<p class="tag_sub">Fairy tale can shape a mind, without the mind knowing it.</p>
     </div> 
+    <div class="col-sm-1">
+    </div>
    </div>
 </div>
 
@@ -44,7 +60,7 @@ function alms() {
  		<img class="mySlidesS" src="images/story/2.jpg"></img>
 	</div>
 	<p class="part1">It gives so much importance on
-physical appearance of a girl that it reflects the idea of how women often feel the need to change in order to
+physical appearance of a girl that women often feel the need to change in order to
 get a man to like her.</p>
 
 	<!-- <div class="border"></div> -->
@@ -61,9 +77,10 @@ get a man to like her.</p>
       <div class="w3-content w3-display-container">
   		<img class="mySlidesV" src="images/story/3.jpg"></img>
 	</div>
-	<p class="part2">It depicts the boy so perfect and he rescues the princess in distress keeping her happy ever after.
-It reflects the idea of how man feel more powerful than woman and woman feel dependent on man to complete her.
-It reflects the idea of how woman set high standard expectations from man.</p>
+	<p class="part2">A girl is in trouble and she is rescued by a boy who keeps her happy ever after.
+It gives so much importance on power of a prince that a woman often set high standard expectation from man
+and often feel dependent while the man feel more dominant than woman.
+</p>
 	<!-- <div class="border"></div> -->
     </div>
     <div class="col-sm-4">
@@ -78,20 +95,7 @@ It reflects the idea of how woman set high standard expectations from man.</p>
       <div class="w3-content w3-display-container">
   		<img class="mySlidesJ" src="images/story/1.jpg"></img>
 	</div>
-	<p class="part3">Fairy tale lead to unrealistic expectations.</p> 
-
-	<!-- <div class="border"></div> -->
-    </div>
-    <div class="col-sm-4">
-    </div>
-  </div>
-
-<div class="row" style="margin-top:2%">
-    <div class="col-sm-4">
-    </div>
-    <div class="col-sm-4">
-
-	<p class="part4"></p>  
+	<p class="part3">Fairy tale lead to unrealistic expectation.</p> 
 
 	<!-- <div class="border"></div> -->
     </div>
