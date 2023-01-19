@@ -35,7 +35,7 @@ body{
 .sidepanel a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 10px;
+  font-size: 15px;
   color: #6E829A;
   display: block;
   transition: 0.3s;
@@ -50,7 +50,7 @@ body{
   position: absolute;
   top: 0;
   right: 25px;
-  font-size: 10px;
+  font-size: 15px;
 }
 
 .top-nav{
@@ -83,7 +83,7 @@ body{
 	margin-left:2%;
 	border:none;
 	padding:10px;
-	font-size: 10px;
+	font-size: 15px;
 	text-align:center;
 	color:#F0F4E5;
 	background:transparent;
@@ -92,7 +92,7 @@ body{
 .tag{
 	font-family:"Arial narrow";
 	margin-top:4%;
-	font-size: 20px;
+	font-size: 25px;
 	text-align:center;
 	color:#F0F4E5;
 	font-weight:bold;
@@ -100,7 +100,7 @@ body{
 
 .tag_sub{
 	font-family:"Arial narrow";
-	font-size: 10px;
+	font-size: 15px;
 	text-align:center;
 	color:#F0F4E5;
 	width:100%;
@@ -110,7 +110,7 @@ body{
 	font-family:"Arial narrow";
 	margin-left:0%;
 	margin-top:3%;
-	font-size: 20px;
+	font-size: 25px;
 	text-align:center;
 	color:#F0F4E5;
 	font-weight:bold;
@@ -119,7 +119,7 @@ body{
 .tag_support_sub{
 	font-family:"Arial narrow";
 	margin-left:0%;
-	font-size: 10px;
+	font-size: 15px;
 	text-align:center;
 	color:#F0F4E5;
 }
@@ -128,7 +128,7 @@ body{
 	font-family:"Arial narrow";
 	margin-left:0%;
 	margin-top:2%;
-	font-size: 10px;
+	font-size: 15px;
 	text-align:center;
 	color:#F0F4E5;
 }
@@ -137,7 +137,7 @@ body{
 	font-family:"Arial narrow";
 	margin-left:0%;
 	margin-top:2%;
-	font-size: 10px;
+	font-size: 15px;
 	text-align:center;
 	color:#F0F4E5;
 }
@@ -146,7 +146,7 @@ body{
 	font-family:"Arial narrow";
 	margin-left:0%;
 	margin-top:2%;
-	font-size: 10px;
+	font-size: 15px;
 	text-align:center;
 	color:#F0F4E5;
 }
@@ -155,7 +155,7 @@ body{
   position: absolute;
   top: 50%;
   left: 4%;
-  font-size: 15px;
+  font-size: 20px;
   color:#F0F4E5;
   border:none;
   background:transparent;
@@ -166,7 +166,7 @@ body{
   position: absolute;
   top: 50%;
   left: 89%;
-  font-size: 15px;
+  font-size: 20px;
   color:#F0F4E5;
   border:none;
   background:transparent;
@@ -196,7 +196,7 @@ body{
 	font-family:"Arial narrow";
 	margin-left:0%;
 	margin-top:0%;
-	font-size: 10px;
+	font-size: 15px;
 	text-align:left;
 	color:#F0F4E5;
 	padding-left:10%;
@@ -207,7 +207,7 @@ body{
 	font-family:"Arial narrow";
 	margin-left:0%;
 	margin-top:0%;
-	font-size: 10px;
+	font-size: 15px;
 	text-align:left;
 	color:#F0F4E5;
 	padding-left:10%;
@@ -218,7 +218,7 @@ body{
 	font-family:"Arial narrow";
 	margin-left:0%;
 	margin-top:0%;
-	font-size: 10px;
+	font-size: 15px;
 	text-align:left;
 	color:#F0F4E5;
 	padding-left:10%;
