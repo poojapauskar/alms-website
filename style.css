@@ -104,6 +104,8 @@ body{
 	text-align:center;
 	color:#F0F4E5;
 	width:100%;
+        padding-left:10%;
+	padding-right:10%;
 }
 
 .tag_support{
@@ -122,6 +124,8 @@ body{
 	font-size: 13px;
 	text-align:center;
 	color:#F0F4E5;
+        padding-left:10%;
+	padding-right:10%;
 }
 
 .slideTitle1{
