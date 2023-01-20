@@ -35,7 +35,7 @@ body{
 .sidepanel a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 13px;
+  font-size: 10px;
   color: #6E829A;
   display: block;
   transition: 0.3s;
@@ -50,7 +50,7 @@ body{
   position: absolute;
   top: 0;
   right: 25px;
-  font-size: 13px;
+  font-size: 10px;
 }
 
 .top-nav{
@@ -83,7 +83,7 @@ body{
 	margin-left:2%;
 	border:none;
 	padding:10px;
-	font-size: 13px;
+	font-size: 10px;
 	text-align:center;
 	color:#F0F4E5;
 	background:transparent;
@@ -92,7 +92,7 @@ body{
 .tag{
 	font-family:"Arial narrow";
 	margin-top:4%;
-	font-size: 23px;
+	font-size: 20px;
 	text-align:center;
 	color:#F0F4E5;
 	font-weight:bold;
@@ -100,19 +100,17 @@ body{
 
 .tag_sub{
 	font-family:"Arial narrow";
-	font-size: 13px;
+	font-size: 10px;
 	text-align:center;
 	color:#F0F4E5;
 	width:100%;
-        padding-left:10%;
-	padding-right:10%;
 }
 
 .tag_support{
 	font-family:"Arial narrow";
 	margin-left:0%;
 	margin-top:3%;
-	font-size: 23px;
+	font-size: 20px;
 	text-align:center;
 	color:#F0F4E5;
 	font-weight:bold;
@@ -121,18 +119,16 @@ body{
 .tag_support_sub{
 	font-family:"Arial narrow";
 	margin-left:0%;
-	font-size: 13px;
+	font-size: 10px;
 	text-align:center;
 	color:#F0F4E5;
-        padding-left:10%;
-	padding-right:10%;
 }
 
 .slideTitle1{
 	font-family:"Arial narrow";
 	margin-left:0%;
 	margin-top:2%;
-	font-size: 13px;
+	font-size: 10px;
 	text-align:center;
 	color:#F0F4E5;
 }
@@ -141,7 +137,7 @@ body{
 	font-family:"Arial narrow";
 	margin-left:0%;
 	margin-top:2%;
-	font-size: 13px;
+	font-size: 10px;
 	text-align:center;
 	color:#F0F4E5;
 }
@@ -150,7 +146,7 @@ body{
 	font-family:"Arial narrow";
 	margin-left:0%;
 	margin-top:2%;
-	font-size: 13px;
+	font-size: 10px;
 	text-align:center;
 	color:#F0F4E5;
 }
@@ -159,7 +155,7 @@ body{
   position: absolute;
   top: 50%;
   left: 4%;
-  font-size: 18px;
+  font-size: 15px;
   color:#F0F4E5;
   border:none;
   background:transparent;
@@ -170,7 +166,7 @@ body{
   position: absolute;
   top: 50%;
   left: 89%;
-  font-size: 18px;
+  font-size: 15px;
   color:#F0F4E5;
   border:none;
   background:transparent;
@@ -199,8 +195,8 @@ body{
 .part1{
 	font-family:"Arial narrow";
 	margin-left:0%;
-	margin-top:0%;
-	font-size: 13px;
+	margin-top:2%;
+	font-size: 10px;
 	text-align:left;
 	color:#F0F4E5;
 	padding-left:10%;
@@ -210,8 +206,8 @@ body{
 .part2{
 	font-family:"Arial narrow";
 	margin-left:0%;
-	margin-top:0%;
-	font-size: 13px;
+	margin-top:2%;
+	font-size: 10px;
 	text-align:left;
 	color:#F0F4E5;
 	padding-left:10%;
@@ -221,8 +217,8 @@ body{
 .part3{
 	font-family:"Arial narrow";
 	margin-left:0%;
-	margin-top:0%;
-	font-size: 13px;
+	margin-top:2%;
+	font-size: 10px;
 	text-align:left;
 	color:#F0F4E5;
 	padding-left:10%;
