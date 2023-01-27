@@ -64,7 +64,7 @@ function closeNav() {
   <div class="row">
 
     <div class="col-sm-4">
-      <p class="slideTitle1">Crafty ones. No messes. Just ideas</p>
+      <p class="slideTitle1">Crafty ones. No messes. Just ideas. <span class="slideCraft"></span></p>
 
       <div class="w3-content w3-display-container">
   		<img class="mySlidesV" src="images/craft/never give up.jpg"></img>
@@ -87,7 +87,7 @@ function closeNav() {
     </div>
 
     <div class="col-sm-4">
-      <p class="slideTitle2">When love and skill work together</p>
+      <p class="slideTitle2">When love and skill work together. <span class="slideTalent"></span></p>
       <div class="w3-content w3-display-container">
 		<img class="mySlidesS" src="images/talent/value.jpg"></img>
  		<img class="mySlidesS" src="images/talent/presentation.jpg"></img>
@@ -116,7 +116,7 @@ function closeNav() {
     </div>
 
     <div class="col-sm-4">
-      <p class="slideTitle3">Each one tell a story</p>        
+      <p class="slideTitle3">Each one tell a story. <span class="slideArt"></span></p>        
       <div class="w3-content w3-display-container">
   		<img class="mySlidesJ" src="images/art/bird.jpg"></img>
   		<img class="mySlidesJ" src="images/art/water.jpg"></img>
@@ -160,7 +160,10 @@ function showDivsV(n) {
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";  
   }
-  x[slideIndex-1].style.display = "block";  
+  x[slideIndex-1].style.display = "block"; 
+ 
+  var slideCraft = $('.slideCraft'); 
+  slideCraft.text("("+slideIndex+"/"+x.length+")");
 }
 
 function showDivsS(n) {
@@ -171,7 +174,10 @@ function showDivsS(n) {
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";  
   }
-  x[slideIndex-1].style.display = "block";  
+  x[slideIndex-1].style.display = "block"; 
+
+  var slideTalent = $('.slideTalent'); 
+  slideTalent.text("("+slideIndex+"/"+x.length+")"); 
 }
 
 function showDivsJ(n) {
@@ -183,6 +189,9 @@ function showDivsJ(n) {
     x[i].style.display = "none";  
   }
   x[slideIndex-1].style.display = "block";  
+
+  var slideArt = $('.slideArt'); 
+  slideArt.text("("+slideIndex+"/"+x.length+")"); 
 }
 </script>
 
