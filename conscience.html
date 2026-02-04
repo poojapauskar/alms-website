@@ -75,68 +75,6 @@ function closeNav() {
 
 <br><br>
 </div>
-
-
-<script>
-var slideIndex = 1;
-showDivsV(slideIndex);
-showDivsS(slideIndex);
-showDivsJ(slideIndex);
-
-function plusDivs(n,x) {
-  if(x=='V'){
-	showDivsV(slideIndex += n);
-  }
-  else if(x=='S'){
-	showDivsS(slideIndex += n);
-  }
-  else{
-	showDivsJ(slideIndex += n);
-  }
-}
-
-function showDivsV(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlidesV");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  x[slideIndex-1].style.display = "block"; 
- 
-  var slideCraft = $('.slideCraft'); 
-  slideCraft.text("("+slideIndex+"/"+x.length+")");
-}
-
-function showDivsS(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlidesS");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  x[slideIndex-1].style.display = "block"; 
-
-  var slideTalent = $('.slideTalent'); 
-  slideTalent.text("("+slideIndex+"/"+x.length+")"); 
-}
-
-function showDivsJ(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlidesJ");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  x[slideIndex-1].style.display = "block";  
-
-  var slideArt = $('.slideArt'); 
-  slideArt.text("("+slideIndex+"/"+x.length+")"); 
-}
-</script>
-
+	
 </body>
 </html>
