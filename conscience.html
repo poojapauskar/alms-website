@@ -40,19 +40,112 @@ function closeNav() {
 	<button class="openbtn" onclick="openNav()"><i class="material-icons" style="font-size:20px">menu</i></button>
     </div>
     <div class="col-sm-5" style="margin:5px 5px 5px 5px">
-		<p class="tag" style="font-size:27px,text-align: left">Its only me and my conscience</p>
+		<p class="tag">ALMS</p>
 		<div style="border-bottom:1px solid #AF3F2B;opacity:0;margin-top:1%;margin-bottom:1%"></div>
-		<p class="tag_sub" style="font-size:24px,text-align: center">
-			I am answerable only to my conscience. It knows the whole story. Behind every action, it knows the reasons, intentions, hesitations, fears, efforts and mistakes.<br><br>
-			It will see efforts, rather than seing outcomes. It will see growth, rather than mistakes. It will see reason and intention, and not judge.<br><br>
-			In that space, right and wrong is felt. It allows to sense them and when i ignore the wrong, there is no outward punishment, but it will distant me from myself, weighing more heavily upon me.<br><br>
-			When i know i have to take action, but stay silent to avoid being judged, I may keep peace outside, but create conflict within.<br><br>
-			The world can applaud you and it still wont feel like peace. I need not please anyone. I need not defend any step. I know i need to act and not just reflect.<br><br>
-			And at the end, all i need is to sit with myself and if my conscience is at peace, I know Im being true.
-    </p>
+		<p class="tag_sub">Our each activity is for atleast one child<br>to take back a point that makes a difference to them.<br>
+<b>11 schools. 151+ activities. 5 annual drives.</b></p>
     </div>
+    <div class="col-sm-5">
+		<img class="top1" style="width:100%" src="images/cover/cover.jpg"></img>
+    </div>
+    <div class="col-sm-1">
+    </div> 
    </div>
 </div>
+
+
   
+<div class="container">
+
+  <div class="row">
+
+    <div class="col-sm-4">
+      <p class="slideTitle1">Crafty ones. No messes. Just ideas. <span class="slideCraft"></span></p>
+
+      <div class="w3-content w3-display-container">
+  		<img class="mySlidesV" src="images/conscience/1.jpg"></img>
+	  </div>
+    </div>
+
+    <div class="col-sm-4">
+      <p class="slideTitle2">When love and skill work together. <span class="slideTalent"></span></p>
+      <div class="w3-content w3-display-container">
+		<img class="mySlidesS" src="images/conscience/2.jpg"></img>
+	</div>
+    </div>
+
+    <div class="col-sm-4">
+      <p class="slideTitle3">Each one tell a story. <span class="slideArt"></span></p>        
+      <div class="w3-content w3-display-container">
+  		<img class="mySlidesJ" src="images/conscience/3.jpg"></img>
+	</div>
+    </div>
+  </div>
+
+<br><br>
+</div>
+
+
+<script>
+var slideIndex = 1;
+showDivsV(slideIndex);
+showDivsS(slideIndex);
+showDivsJ(slideIndex);
+
+function plusDivs(n,x) {
+  if(x=='V'){
+	showDivsV(slideIndex += n);
+  }
+  else if(x=='S'){
+	showDivsS(slideIndex += n);
+  }
+  else{
+	showDivsJ(slideIndex += n);
+  }
+}
+
+function showDivsV(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlidesV");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block"; 
+ 
+  var slideCraft = $('.slideCraft'); 
+  slideCraft.text("("+slideIndex+"/"+x.length+")");
+}
+
+function showDivsS(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlidesS");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block"; 
+
+  var slideTalent = $('.slideTalent'); 
+  slideTalent.text("("+slideIndex+"/"+x.length+")"); 
+}
+
+function showDivsJ(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlidesJ");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+
+  var slideArt = $('.slideArt'); 
+  slideArt.text("("+slideIndex+"/"+x.length+")"); 
+}
+</script>
+
 </body>
 </html>
